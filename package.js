@@ -8,11 +8,5 @@ Package.describe({
 Package.onUse(function (api) {
   api.versionsFrom('1.0');
   api.use('templating', 'client');
-  api.addFiles('erasaur:session-helper.js', 'client');
-});
-
-Package.onTest(function (api) {
-  api.use('tinytest');
-  api.use('erasaur:session-helper');
-  api.addFiles('erasaur:session-helper-tests.js');
+  api.addFiles('lib/erasaur:session-helper.js', 'client');
 });
