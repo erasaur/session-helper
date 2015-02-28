@@ -1,7 +1,7 @@
 Package.describe({
   name: 'erasaur:session-helper',
   summary: 'Template Helper for Sessions',
-  version: '0.0.1',
+  version: '0.0.2',
   git: 'https://github.com/erasaur/session-helper'
 });
 
